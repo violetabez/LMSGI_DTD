@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cataleg>
+    <llista_actors>
+        <actor id="">
+            <nom></nom>
+            <edat></edat>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula>
+            <titol></titol>
+            <director></director>
+            <any></any>
+            <actor ref=""></actor>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio></recomanacio>
+    </llista_recomanacions_pelicules>
+</cataleg>
