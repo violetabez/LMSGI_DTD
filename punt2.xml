@@ -13,6 +13,14 @@
             <nom>Eduard Fernandez</nom>
             <edat>50</edat>
         </actor>
+        <actor id="A004">
+            <nom>Eneko Sagardoy</nom>
+            <edat>20</edat>
+        </actor>
+        <actor id="A005">
+            <nom>Aia Kruse</nom>
+            <edat>19</edat>
+        </actor>
     </llista_actors>
     <llista_pelicules>
         <pelicula id="P061">
@@ -30,6 +38,15 @@
             <any>2017</any>
             <actors>
                 <actor_ref ref="A002"/> <!--tiene que estar antes en actor-->
+            </actors>
+        </pelicula>
+        <pelicula id="P082">
+            <titol idioma="eus">Handia</titol>
+            <director>Aitor Arregi</director>
+            <any>2017</any>
+            <actors>
+                <actor_ref ref="A004"/> <!--tiene que estar antes en actor-->
+                <actor_ref ref="A005"/>
             </actors>
         </pelicula>
     </llista_pelicules>
