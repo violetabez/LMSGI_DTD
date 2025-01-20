@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cataleg>
     <llista_actors>
-        <actor id="">
-            <nom></nom>
-            <edat></edat>
+        <actor id="A001">
+            <nom>Enric Aunquer</nom>
+            <edat>38</edat>
+        </actor>
+        <actor id="A002">
+            <nom>Anna Castillo</nom>
+            <edat>30</edat>
+        </actor>
+        <actor id="A003">
+            <nom>Eduard Fernandez</nom>
+            <edat>50</edat>
         </actor>
     </llista_actors>
     <llista_pelicules>
-        <pelicula>
-            <titol></titol>
-            <director></director>
-            <any></any>
-            <actor ref=""></actor>
+        <pelicula id="P061">
+            <titol idioma="cat">El 47</titol>
+            <director>Marcel Barrena</director>
+            <any>2024</any>
+            <actors>
+                <actor_ref ref="A001"/> <!--tiene que estar antes en actor-->
+                <actor_ref ref="A003"/>
+            </actors>
+        </pelicula>
+        <pelicula id="P057">
+            <titol idioma="esp">La Llamada</titol>
+            <director>Javier Ambrossi</director>
+            <any>2017</any>
+            <actors>
+                <actor_ref ref="A002"/> <!--tiene que estar antes en actor-->
+            </actors>
         </pelicula>
     </llista_pelicules>
     <llista_recomanacions_pelicules>
-        <recomanacio></recomanacio>
+        <recomanacio ref="P057"/> <!--tiene que estar antes en pelicula-->
+        <recomanacio ref="P061"/>
     </llista_recomanacions_pelicules>
 </cataleg>
